@@ -7,7 +7,7 @@ function G = im8bit(I, frange)
     if imin < 0
         ioffset = -imin;
     else
-        ioffset = min;
+        ioffset = imin;
     end
     
     t = irange / frange;
