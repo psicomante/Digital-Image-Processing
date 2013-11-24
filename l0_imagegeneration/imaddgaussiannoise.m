@@ -10,8 +10,8 @@
 function [G, noise] = imaddgaussiannoise(I, intensity)
 
 if nargin == 1
-    strength = 20;
+    intensity = 20;
 end
 
-noise = randn(size(I))*strength;
+noise = randn(size(I))*intensity;
 G = uint8(double(I) + noise);
