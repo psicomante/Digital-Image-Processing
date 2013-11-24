@@ -1,4 +1,8 @@
+% useful functions
 addpath('lib');
+% tests for almost every functions and laboratory
+addpath('tests');
+
 addpath('l0_imagegeneration');
 addpath('l1_lut');
 addpath('l1_quantization');
