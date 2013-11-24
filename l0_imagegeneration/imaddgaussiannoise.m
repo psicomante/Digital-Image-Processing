@@ -1,4 +1,4 @@
-% the functions adds gaussian noise on an image I
+% the functions adds random gaussian noise on an image I
 % throught the formula:
 % G(x,y) = I(x,y) + N(x,y)
 
