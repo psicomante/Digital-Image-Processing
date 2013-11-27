@@ -29,4 +29,13 @@ if strcmp(type,'scbar')
   colorbar;
 end
 
+
+if strcmp(type,'scbarg')
+  h = imagesc(I);
+  colorbar;
+  colormap gray;
+  axis square
+end
+
+
 end
